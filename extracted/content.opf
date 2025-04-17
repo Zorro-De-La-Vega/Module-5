@@ -1,0 +1,21 @@
+<package unique-identifier="uuid_id" version="2.0" xmlns="http://www.idpf.org/2007/opf">
+        <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <dc:language>en</dc:language>
+          <dc:creator opf:file-as="Unknown" opf:role="aut">Ally</dc:creator>
+          <dc:title>
+            Module 5
+          </dc:title>
+          <dc:identifier id="uuid_id" opf:scheme="uuid">
+            df5b1760-c096-46cc-92fb-78fb66b02f27
+          </dc:identifier>
+        </metadata>
+        <manifest>
+          <item href="index.html" id="html" media-type="text/html"/>
+          <item href="page_styles.css" id="page_css" media-type="text/css"/>
+          <item href="stylesheet.css" id="css" media-type="text/css"/>
+          <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+        </manifest>
+        <spine toc="ncx">
+          <itemref idref="html"/>
+        </spine>
+      </package>
